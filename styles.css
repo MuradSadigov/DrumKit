@@ -1,0 +1,102 @@
+body {
+  text-align: center;
+  background-color: #2c2c5c;
+  font-family: serif;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+}
+
+.w {
+  background-size: cover;
+  background-image: url("./images/crash.png");
+}
+
+.a {
+  background-size: cover;
+  background-image: url("./images/kick.png");
+}
+
+.s {
+  background-image: url("./images/snare.png");
+  background-size: cover;
+
+}
+
+.d {
+  background-size: cover;
+  background-image: url("./images/tom1.png");
+
+}
+
+.j {
+  background-size: cover;
+  background-image: url("./images/tom2.png");
+
+}
+
+.k {
+  background-size: cover;
+  background-image: url("./images/tom3.png");
+}
+
+.l {
+  background-image: url("./images/tom4.png");
+  background-size: cover;
+  
+}
+
+.set {
+  margin: 8% auto;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+  transform: rotateZ(0deg);
+  transition: transform 1.5s, width 0.5s, height 0.5s, font-size 0.5s;
+}
+
+.drum:hover{
+  width: 100px;
+  height: 100px;
+  font-size: 3.35rem;
+  transform: rotateZ(360deg);
+  
+}
+
+footer p{
+  color: whitesmoke;
+  font-size: 1.5rem;
+}
+
+.linkedin, .github{
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.linkedin{
+  background-image: url("./images/linkedin.png");
+  background-size: cover;
+}
+
+.github{
+  background-image: url("./images/github.png");
+  background-size: cover;
+}
